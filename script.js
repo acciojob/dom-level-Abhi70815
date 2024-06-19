@@ -1,6 +1,6 @@
 //your JS code here. If required.
-function getDOMlevel('level') {
-	const tElement=document.getElementById('level');
+function getDOMlevel(eId) {
+	const tElement=document.getElementById(eId);
 	let pElement = tElement'
 		let level=0;
 	while (pElement && pElement !==document.documentElement){
