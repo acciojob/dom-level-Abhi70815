@@ -1,15 +1,7 @@
-//your JS code here. If required.
-function getDOMlevel(eId) {
-	const tElement=document.getElementById(eId);
-	let pElement = tElement'
-		let level=0;
-	while (pElement && pElement !==document.documentElement){
-      pElement=pElement.pElement;
-		level++;
-	} 
-	alert(`The level of the element is: ${level}`);
-	{
+var inputs = document.getElementsByTagName("li");
+for (var i = 0; i < inputs.length; i++) {
+	if(inputs[i].id==="level"){
+  alert(`The level of the element is:${i}`);
 		
 	}
 }
-getDOMlevel("level");
